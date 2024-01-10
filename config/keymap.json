@@ -7,7 +7,8 @@
     "keypad",
     "fn",
     "mod",
-    "Qwerty"
+    "Qwerty",
+    "Multimedia"
   ],
   "layers": [
     [
@@ -17,11 +18,11 @@
        "&kp LSHFT",     "&kp Z",    "&kp X",    "&kp C",   "&kp D",  "&kp V",                                         "&kp HOME",                     "&kp PG_UP",                                   "&kp K",  "&kp H", "&kp COMMA",  "&kp DOT", "&kp FSLH", "&kp RSHFT",
            "&mo 2", "&kp GRAVE", "&kp CAPS", "&kp LEFT", "&kp ESC",                     "&kp BSPC", "&mt LSHIFT TAB",  "&kp END",                     "&kp PG_DN", "&mt RSHIFT ENTER", "&kp SPACE",            "&to 1",  "&kp DOWN", "&kp LBKT", "&kp RBKT",     "&mo 2"
     ], [
-       "&kp EQUAL",    "&kp N1",       "&kp N2",       "&kp N3",       "&kp N4",       "&kp N5",             "&trans",                                                                            "&mo 3",            "&kp N6",        "&kp KP_NUM", "&kp KP_EQUAL",   "&kp KP_DIVIDE",  "&kp KP_MULTIPLY", "&kp MINUS",
-         "&kp TAB", "&kp GRAVE", "&kp NUMBER_7", "&kp NUMBER_8", "&kp NUMBER_9",       "&trans",              "&none",                                                                            "&none",   "&kp C_VOLUME_UP",  "&kp LEFT_BRACKET",    "&kp MINUS",          "&trans",         "&kp SEMI",  "&kp BSLH",
-         "&kp ESC",    "&trans", "&kp NUMBER_4", "&kp NUMBER_5", "&kp NUMBER_6", "&kp NUMBER_0",              "&none", "&kp LCTRL", "&kp LALT",                      "&kp LGUI", "&kp RCTRL",     "&none",    "&kp LEFT_ARROW",    "&kp DOWN_ARROW", "&kp UP_ARROW", "&kp RIGHT_ARROW", "&kp SINGLE_QUOTE",   "&kp SQT",
-       "&kp LSHFT",    "&trans", "&kp NUMBER_1", "&kp NUMBER_2", "&kp NUMBER_3",       "&trans",                                    "&kp HOME",                     "&kp PG_UP",                           "&kp C_VOLUME_DOWN", "&kp RIGHT_BRACKET",    "&kp COMMA",      "&kp PERIOD",        "&kp EQUAL", "&kp RSHFT",
-           "&mo 2", "&kp GRAVE",     "&kp CAPS",     "&kp LEFT",        "&to 0",                           "&kp BSPC",    "&trans",  "&kp END",                     "&kp PG_DN", "&kp ENTER", "&kp SPACE",                                 "&kp UP",     "&kp DOWN",      "&kp KP_DOT",         "&kp RBKT",     "&mo 2"
+       "&kp EQUAL",    "&kp N1",       "&kp N2",       "&kp N3",       "&kp N4",       "&kp N5",             "&trans",                                                                            "&mo 3",         "&kp N6",        "&kp KP_NUM", "&kp KP_EQUAL",   "&kp KP_DIVIDE",  "&kp KP_MULTIPLY", "&kp MINUS",
+         "&kp TAB", "&kp GRAVE", "&kp NUMBER_7", "&kp NUMBER_8", "&kp NUMBER_9",       "&trans",              "&none",                                                                            "&none",      "&kp GRAVE",  "&kp LEFT_BRACKET",    "&kp MINUS",   "&kp BACKSLASH",         "&kp SEMI",  "&kp BSLH",
+         "&kp ESC",    "&trans", "&kp NUMBER_4", "&kp NUMBER_5", "&kp NUMBER_6", "&kp NUMBER_0",              "&none", "&kp LCTRL", "&kp LALT",                      "&kp LGUI", "&kp RCTRL",     "&none", "&kp LEFT_ARROW",    "&kp DOWN_ARROW", "&kp UP_ARROW", "&kp RIGHT_ARROW", "&kp SINGLE_QUOTE",   "&kp SQT",
+       "&kp LSHFT",    "&trans", "&kp NUMBER_1", "&kp NUMBER_2", "&kp NUMBER_3",       "&trans",                                    "&kp HOME",                     "&kp PG_UP",                                   "&trans", "&kp RIGHT_BRACKET",    "&kp COMMA",      "&kp PERIOD",        "&kp EQUAL", "&kp RSHFT",
+           "&mo 2", "&kp GRAVE",     "&kp CAPS",     "&kp LEFT",        "&to 0",                           "&kp BSPC",    "&trans",  "&kp END",                     "&kp PG_DN",    "&trans", "&kp SPACE",                              "&kp UP",     "&kp DOWN",      "&kp KP_DOT",         "&kp RBKT",     "&mo 2"
     ], [
        "&kp F1", "&kp F2", "&kp F3", "&kp F4", "&kp F5", "&kp F6",           "&tog 1",                                                              "&mo 3", "&kp F7", "&kp F8", "&kp F9", "&kp F10", "&kp F11", "&kp F12",
        "&trans", "&kp F1", "&kp F2", "&kp F3", "&kp F4", "&kp F5",            "&none",                                                              "&none", "&kp F6", "&kp F7", "&kp F8",  "&kp F9", "&kp F10",  "&trans",
@@ -40,6 +41,12 @@
        "&trans", "&trans",  "&kp S",  "&kp D",           "&kp F",  "&kp G",                  "&trans",     "&trans", "&trans",                     "&trans", "&trans",  "&to 0",  "&kp H",        "&kp J",  "&kp K",  "&kp L", "&kp SEMI", "&trans",
        "&trans", "&trans", "&trans", "&trans",           "&kp V",  "&kp B",                                          "&trans",                     "&trans",                      "&kp N",        "&kp M", "&trans", "&trans",   "&trans", "&trans",
        "&trans", "&trans", "&trans", "&trans", "&kp RIGHT_ARROW",                     "&kp BACKSPACE", "&kp DELETE", "&trans",                     "&trans", "&trans", "&trans",           "&kp UP_ARROW", "&trans", "&trans",   "&trans", "&trans"
+    ], [
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans",         "&trans",         "&trans",       "&trans",          "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans",   "&kp C_VOL_UP",    "&kp PAGE_UP",     "&kp HOME",          "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&kp LEFT_ARROW", "&kp DOWN_ARROW", "&kp UP_ARROW", "&kp RIGHT_ARROW", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",                               "&trans",                     "&trans",                       "&kp C_VOL_UP",  "&kp PAGE_DOWN",      "&kp END",          "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                           "&trans",       "&trans",          "&trans", "&trans", "&trans"
     ]
   ]
 }
