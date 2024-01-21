@@ -64,11 +64,11 @@
 
         layer_symbols {
             bindings = <
-&kp EQUAL  &kp N1     &kp N2        &kp N3        &kp N4        &kp N5            &trans                                                 &mo 3   &kp N6                 &kp KP_NUM         &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY   &kp MINUS
-&kp TAB    &kp AT     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp LEFT_CONTROL  &none                                                  &none   &kp LEFT_PARENTHESIS   &kp LEFT_BRACKET   &kp MINUS     &kp BACKSLASH  &kp SEMI          &kp BSLH
-&kp ESC    &kp GRAVE  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0      &none   &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none   &kp H                  &kp J              &kp K         &kp L          &kp SINGLE_QUOTE  &kp SQT
-&kp LSHFT  &kp HASH   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LEFT_ALT                         &kp HOME      &kp PG_UP                     &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp COMMA     &kp PERIOD     &kp EQUAL         &kp RSHFT
-&mo 2      &kp GRAVE  &kp CAPS      &kp LEFT      &to 0                           &trans  &trans     &trans        &kp PG_DN  &trans     &trans                         &none              &kp DOWN      &kp KP_DOT     &kp RBKT          &mo 2
+&kp EQUAL  &kp N1       &kp N2        &kp N3        &kp N4        &kp N5        &trans                                                 &mo 3   &kp N6                 &kp KP_NUM         &kp KP_EQUAL     &kp KP_DIVIDE   &kp KP_MULTIPLY  &kp MINUS
+&kp TAB    &kp AT       &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp GRAVE     &none                                                  &none   &kp LEFT_PARENTHESIS   &kp LEFT_BRACKET   &kp LEFT_BRACE   &kp MINUS       &kp DOLLAR       &kp BSLH
+&kp ESC    &kp PERCENT  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &none   &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none   &kp H                  &kp J              &kp K            &kp L           &kp PIPE         &kp SQT
+&kp LSHFT  &kp HASH     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp TILDE                        &kp HOME      &kp PG_UP                     &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp UNDERSCORE  &kp EQUAL        &kp RSHFT
+&mo 2      &kp GRAVE    &kp CAPS      &kp LEFT      &to 0                       &trans  &trans     &trans        &kp PG_DN  &trans     &trans                         &none              &kp DOWN         &kp KP_DOT      &kp RBKT         &mo 2
             >;
         };
 
